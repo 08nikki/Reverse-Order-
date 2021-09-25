@@ -4,7 +4,7 @@ int main()
     FILE *fp;
     char ch;
     int i,pos;
-    fp=fopen("new.txt","r");
+    fp=fopen("fresh.txt","r");
     if(fp==NULL)
     {
         printf("File does not exist..");
